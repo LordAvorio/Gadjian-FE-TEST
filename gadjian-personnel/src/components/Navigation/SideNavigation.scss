@@ -1,0 +1,59 @@
+@import '../../base.scss';
+
+
+@media only screen and (max-width: 767px) {
+    .sideNavigationContainer > * {
+        display: none !important;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .sideNavigationContainer{
+        padding: 10px 15px;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 230px;
+        height: 100vh;
+        background-color: $white_1;
+    }
+
+    .sideNavHero p{
+        font-size: 25px;
+        font-family: $ubuntu;
+        color: $turquoise_4;
+        font-weight: bold;
+    }
+
+    .sideNavMenu {
+        margin-top: 20px !important;
+    }
+
+    .sideNavMenu ul {
+        list-style-type: none;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+    }
+
+    .sideNavMenu a {
+        display: block;
+        padding-bottom: 10px;
+        text-decoration: none;
+        font-size: 15px;
+        color: black;
+        font-family: $poppins;
+        font-weight: bold;
+    }
+
+    .sideNavMenu a:hover {
+        color: $turquoise_4;
+    }
+
+    .sideNavMenuIcon {
+        margin-right: 10px;
+    }
+
+    
+
+}
