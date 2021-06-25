@@ -1,0 +1,26 @@
+@import '../../../base.scss';
+
+.containerCenter {
+    margin: 15px;
+    margin-top: 65px;
+}
+
+p,h1,h2 {
+    margin: 0px !important;
+}
+
+@media only screen and (min-width: 767px) {
+    .containerCenter {
+        margin: 15px;
+        margin-left: 245px;
+        margin-top: 75px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .containerCenter {
+        margin: 25px;
+        margin-left: 255px;
+        margin-top: 85px;
+    }
+}
