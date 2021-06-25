@@ -1,6 +1,8 @@
 @import '../../base.scss';
 
 .topNavigationContainer {
+    position: fixed;
+    top: 0;
     width: 100%;
     height: 50px;
     background-color: $white_1;

@@ -1,0 +1,102 @@
+@import '../../../base.scss';
+
+.searchBarContainer{
+    width: 100%;
+    background-color: $white_1;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.searchBarTitleContainer h2 {
+    font-family: $ubuntu;
+    font-weight: bold;
+    color: $turquoise_4;
+}
+
+.searchBarTitleContainer p {
+    font-family: $poppins;
+    font-size: 15px;
+}
+
+.fieldRightIcon {
+    position: relative;
+    margin: 10px 0;
+}
+
+.rightIcon {
+    color: $turquoise_4;
+    position: absolute;
+    top: 8px;
+    left: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.fieldRightIcon input {
+    padding: 5px;
+    padding-left: 40px;
+    width: 100%;
+    border: 2px solid $gray_1;
+    font-family: $poppins;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.fieldRightIcon input:focus {
+    outline: none !important;
+    border: 2px solid $turquoise_4;
+    border-radius: 5px;
+}
+
+.searchBarButtonContainer button {
+    margin-bottom: 10px;
+    display: flex;
+    width: 100%;
+    padding: 5px 10px;
+    background-color: $turquoise_4;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    font-family: $poppins;
+    font-size: 16px;
+    cursor: pointer;
+    color: $white_1;
+}
+
+.searchBarButtonContainer button:active {
+    background-color: $turquoise_2;
+}
+
+.textButton {
+    flex-grow: 3;
+    text-align: left;
+}
+
+.iconButton {
+    flex-grow: 2;
+    text-align: right;
+}
+
+@media only screen and (min-width: 768px) {
+    .textButton {
+        font-size: 10px;
+    }
+
+    .fieldRightIcon {
+        margin: 0;
+    }
+
+    .searchBarButtonContainer button {
+        margin-bottom: 0;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .textButton {
+        font-size: 15px;
+    }
+
+    .iconButtonInside {
+        font-size: 20px;
+    }
+}
