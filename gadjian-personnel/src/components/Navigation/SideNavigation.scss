@@ -9,6 +9,7 @@
 
 @media only screen and (min-width: 768px) {
     .sideNavigationContainer{
+        z-index: 1;
         padding: 10px 15px;
         position: fixed;
         top: 0;
