@@ -1,0 +1,25 @@
+@import '../../../base.scss';
+
+.containerPagination{
+    padding: 30px 0px;
+}
+
+.containerPrev {
+    text-align: right;
+}
+
+.buttonArrow{
+    border: 0;
+    outline: 0;
+    background: none;
+}
+
+.buttonArrow p {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: $poppins;
+}
+
+.buttonArrow p:hover{
+    color: $turquoise_4;
+}
