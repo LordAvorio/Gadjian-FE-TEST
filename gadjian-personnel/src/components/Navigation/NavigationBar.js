@@ -1,12 +1,13 @@
 import React from 'react'
 
-import {Container, Row, Image, Col} from 'react-bootstrap'
+import { Row, Image, Col} from 'react-bootstrap'
 
 import { AiOutlineMenu } from "react-icons/ai";
 
 import ImageAsset from '../../assets/imageSample1.jpg'
 
 import SideNavigation from './SideNavigation';
+
 
 import './NavigationBar.scss'
 

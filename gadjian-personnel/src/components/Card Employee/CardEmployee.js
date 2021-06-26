@@ -8,7 +8,7 @@ import { IoEllipsisHorizontalSharp } from "react-icons/io5";
 
 import './CardEmployee.scss'
 
-export default function CardEmployee({tempData, index}) {
+export default function CardEmployee({tempData}) {
     return (
         <div>
             <div className="cardEmployeeContainer" >

@@ -12,7 +12,7 @@ import allReducer from './reducer'
 
 let globalState = createStore(allReducer, {}, applyMiddleware(ReduxThunk))
 
-globalState.subscribe(() => console.log("Global State : ", globalState.getState()))
+// globalState.subscribe(() => console.log("Global State : ", globalState.getState()))
 
 
 ReactDOM.render(
