@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>jQuery Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+
+<body>
+    <div class="calc">
+        <form name="form">
+            <input class="calc-display">
+        </form>
+        <table>
+            <tr>
+                <td><input type="button" value="C" onclick="clearData()"></td>
+                <td><input type="button" value="/" onclick="inputData('/')"></td>
+                <td><input type="button" value="<" onclick="deleteData()"></td>
+                <td><input type="button" value="X" onclick="inputData('*')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="7" onclick="inputData(7)"></td>
+                <td><input type="button" value="8" onclick="inputData(8)"></td>
+                <td><input type="button" value="9" onclick="inputData(9)"></td>
+                <td><input type="button" value="-" onclick="inputData('-')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="4" onclick="inputData(4)"></td>
+                <td><input type="button" value="5" onclick="inputData(5)"></td>
+                <td><input type="button" value="6" onclick="inputData(6)"></td>
+                <td><input type="button" value="+" onclick="inputData('+')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="1" onclick="inputData(1)"></td>
+                <td><input type="button" value="2" onclick="inputData(2)"></td>
+                <td><input type="button" value="3" onclick="inputData(3)"></td>
+                <td rowspan=2><input type="button" value="=" onclick="hasil()"
+                        style="height: 158px; background-color: orange"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="button" value="0" onclick="inputData(0)" style="width: 158px; ;"></td>
+                <td><input type="button" value="." onclick="inputData('.')"></td>
+            </tr>
+        </table>
+    </div>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
